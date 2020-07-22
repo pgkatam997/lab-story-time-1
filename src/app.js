@@ -67,9 +67,7 @@ function sweetTooth(totalNoOfSweets, sweetsConsumedByKaren, sweetsConsumedInNMet
     )
       return "No sweets for Karen's friend";
   
-    return (
-      totalNoOfSweets - sweetsConsumedByKaren - sweetsConsumedInNMeters * metersToTravel
-    );
+    return (totalNoOfSweets - sweetsConsumedByKaren - sweetsConsumedInNMeters * metersToTravel);
   }
 //Progression 5:
 //As Lily moves closer, it gets colder. She checks the temperature on her mobile
